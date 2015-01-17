@@ -1,0 +1,147 @@
+body
+			{
+			width: 100%;
+			height: 100%;
+			
+    			background-color: WhiteSmoke; 
+   	 	 
+    			border-left: 2px solid black
+    			border-right: 2px solid black
+    			
+}
+
+
+#global
+
+{	margin: auto;
+	
+	background-color: WhiteSmoke; 
+	width: 900px;
+	height: 500px;
+	text-align: center;
+    border: 4px solid DimGray;
+    margin: auto;
+  	overflow : auto;
+	position : relative;
+    }
+
+
+#entête
+	{
+	background-color:DimGray;
+	top : 20 px;
+	left : 0 px;
+	width:100% ;
+    text-align: center;
+    
+}
+
+#centre
+
+	{ 
+	padding-top: 6px;
+	text-align: center;
+	background-color: WhiteSmoke; 
+	height: 83%;
+	width:100% ;
+	float: left;
+    text-align: center;
+	}
+#pieddepage
+
+	{
+	
+	background-color:DimGray;
+	height: 8%;
+	width:100% ;
+	float: left;
+    text-align: center;
+	}
+table
+{
+	height: 100%;
+	width:100% ;
+
+    }
+
+
+
+#home
+	{
+	
+	height: 100%;
+	width:10% ;
+    text-align: center;
+   
+    }
+#Menu
+{
+	color: Crimson;
+}
+
+    
+#instructions
+{
+	background-color: WhiteSmoke; 
+	height: 100%;
+	width:70% ;
+    text-align: center;
+    color:CornflowerBlue;
+    }
+    
+#help
+{
+	height: 100%;
+	width:10% ;
+	text-align: center;
+	color: CornflowerBlue;
+}
+#aide
+{
+	color: Crimson;
+}
+#nextpage
+{
+	color: CornflowerBlue;
+}
+
+
+#suivant
+{
+	height: 100%;
+	width:30% ;
+   text-align: center;
+   color:Crimson;
+}
+
+#titremodule
+{
+	background-color: WhiteSmoke; 
+	height: 100%;
+	width:50% ;
+	color:Crimson;
+    text-align: center;
+    
+}
+#titresousmodule
+
+{
+	background-color: WhiteSmoke; 
+	height: 100%;
+	width:65% ;
+	color: CornflowerBlue;
+    text-align: center;
+     margin: auto;	
+}
+
+img
+{
+
+margin-bottom: 15px;
+}    
+ 
+ footer
+{	
+	
+    color: CornflowerBlue
+}
