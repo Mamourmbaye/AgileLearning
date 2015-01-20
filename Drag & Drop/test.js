@@ -13,6 +13,7 @@ $(function() {
 	});
 
 	var all=true;
+	var test=true;
 
 	/*$('#verify').click(function(){
    		all = ($('#SAV .verif').text().trim() == $('#SAV').attr('id'));
@@ -27,18 +28,20 @@ $(function() {
 
 	$('#verify').click(function(){
 		$('#dropline div').each( function(index, value) { 
-			alert($('.verif' ,value).text().trim());
-    		all = all & ($('.verif' ,value).text().trim() == value.attr('id'));
-    	/*if ($('p',value).text().trim() == value.attr('id')){
-    		value.css('background', 'green');
-    	}*/
+			test = ($('.verif' ,value).text().trim() == $(this).attr('id'));
+    		all = all & test;
+    	if (test){
+    		$(this).css('background', 'green');
+    	}else{
+    		$(this).css('background', 'ref');
+    	}
   		});
 
 
 		if(all){
 			$('#correction p:first').text("Test reussi ! Bravo");
 		}else{
-			$('#correction p:first').text("Stupide !");
+			$('#correction p:first').text("C'est faux recommencez !");
 		}
 	});
 
