@@ -18,21 +18,20 @@
 
     <div id="global" >
       Drag each article to its corresponding UPN and click on verify when you are done ! <br>
-      Salut les amis <br>
       ID of target: <span class="display"></span>
       <br>
 
       <div id="dragLine">
-        <div class="draggable ui-widget-content">
+        <div id="draggable1" class="draggable ui-widget-content">
           <p>Resistance</p>
         </div>
-        <div class="draggable ui-widget-content">
+        <div id="draggable2" class="draggable ui-widget-content">
           <p>Electronic card</p>
         </div>
-        <div class="draggable ui-widget-content">
+        <div id="draggable3" class="draggable ui-widget-content">
           <p>SAV</p>
         </div>
-        <div class="draggable ui-widget-content">
+        <div id="draggable4" class="draggable ui-widget-content">
           <p>Document de fabrication</p>
         </div>
       </div>
@@ -40,20 +39,33 @@
       <br class="clear">
 
     <div id="dropline">
-      <div id="droppable1" class="droppable ui-widget-header">
+      <div id="SAV" class="droppable ui-widget-header">
         <p>L0056799001</p>
+        <p class="verif"></p>
       </div>
-      <div id="droppable2" class="droppable ui-widget-header">
+      <div id="Resistance" class="droppable ui-widget-header">
         <p>M0237107301</p>
+        <p class="verif"></p>
       </div>
-      <div id="droppable3" class="droppable ui-widget-header">
+      <div id="Document de fabrication" class="droppable ui-widget-header">
         <p>D0014567803</p>
+        <p class="verif"></p>
       </div>
-      <div id="droppable4" class="droppable ui-widget-header">
+      <div id="Electronic card" class="droppable ui-widget-header">
         <p>B0234851001</p>
+        <p class="verif"></p>
       </div>
 
     </div>
+
+    <div id="correction">
+    	<button id="verify">Tester vos réponses</button>
+    	<p><p>
+    </div>
+
+
+
+
 
   </div>
 
