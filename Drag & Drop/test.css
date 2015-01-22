@@ -8,6 +8,11 @@ body{
   border-right: 2px solid black;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  z-index : 20;
+}
 
 #global{
   text-align : center;
@@ -19,9 +24,33 @@ body{
   position: relative;
 }
 
+/* Propriété CSS du texte à l'intérieur des draggable */
+.verif{
+  visibility : hidden;
+}
 
-.draggable { width: 100px; height: 100px; padding: 0.5em; display: inline-block; margin: 10px 10px 10px 0; z-index : 10; }
-.droppable { width: 150px; height: 150px; padding: 0.5em; display: inline-block; margin: 10px; }
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  border-radius : 4px;
+}
+
+.droppable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
 
 #dropline{
 }
