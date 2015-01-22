@@ -1,7 +1,5 @@
 $(function() {
 
-	var all=true;
-	var test=true;
 
 // Définition des éléments draggables/droppable ainsi que l'événement d'écriture qui survient lors d'un drop
 	$(".draggable").draggable();
@@ -23,6 +21,8 @@ $(function() {
 	*/
 //Vérification si toutes les ID des éléments droppés matchent avec le texte écrit à l'intérieur
 	$('#verify').click(function(){
+		var all=true;
+		var test=true;
 		//On teste pour chaque droppable et on recalcul la variable all
 		$('#dropline div').each( function(index, value) {
 			test = ($('.verif' ,value).text().trim() == $(this).attr('id'));
