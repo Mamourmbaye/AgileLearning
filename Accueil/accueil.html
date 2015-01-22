@@ -21,16 +21,16 @@
     text-shadow: 1px 1px 0 #fff;
   }
 
-    .ui-tooltip, .arrow:after {
-    background: black;
-    border: 2px solid white;
+  .ui-tooltip, .arrow:after {
+    background: #FFCC66;
+    border: 2px solid black;
   }
   .ui-tooltip {
     padding: 10px 20px;
-    color: white;
+    color: black;
     border-radius: 20px;
     font: bold 14px "Helvetica Neue", Sans-Serif;
-    text-transform: uppercase;
+    //*text-transform: uppercase;*/
     box-shadow: 0 0 7px black;
   }
   .arrow {
@@ -65,13 +65,34 @@
     bottom: -20px;
     top: auto;
   }
+  #logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  #accordion{
+    clear : both
+  }
+
+
   </style>
  <body>
-
+  <header>
+    <div>
+    <img src="logo2.jpeg" alt="logo AF" id="logo">
+  </div>
+    <div>
+      <h1>Bienvenue</h1>
+      <h2>Agilearning</h2>
+    </div>
+  </header>
 
 	<script src="jquery.js"></script>
 	<script src="jquery-ui-1.11.2/jquery-ui.js"></script>
-    <script src="accueil.js"></script>
+  <script src="accueil.js"></script>
+
 
  	<div id="accordion">
 		  <h3><a href="#">Basic Concepts</a></h3>
@@ -79,7 +100,7 @@
 		  	<div id="progressbarBC"><div class="progress-label">Loading...</div></div><br>
 		  	<b>Description :</b><br>
 		  	 Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.
-		  	<OL> 
+		  	<OL>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Introduction</a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Codification</a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Projet</a>
@@ -94,7 +115,7 @@
 		  	<div id="progressbarCO"><div class="progress-label">Loading...</div></div><br>
 			<b>Description :</b><br>
 		  	 Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.
-		  	<OL> 
+		  	<OL>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Lorem</a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">ipsum </a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">dolor sit</a>
@@ -109,7 +130,7 @@
 		  	<div id="progressbarNPI"><div class="progress-label">Loading...</div></div><br>
 			<b>Description :</b><br>
 		  	 Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.
-		  	<OL> 
+		  	<OL>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Support de Formation</a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Regles de Gestion et Points Importants</a>
 			</OL>
@@ -122,7 +143,7 @@
 		  	<div id="progressbarCQ"><div class="progress-label">Loading...</div></div><br>
 			<b>Description :</b><br>
 		  	 Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.
-		  	<OL> 
+		  	<OL>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Support de Formation</a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Regles de Gestion et Points Importants</a>
 			</OL>
@@ -135,7 +156,7 @@
 		  	<div id="progressbarQBR"><div class="progress-label">Loading...</div></div><br>
 			<b>Description :</b><br>
 		  	 Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.
-		  	<OL> 
+		  	<OL>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Support de Formation</a>
 				<LI><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Regles de Gestion et Points Importants</a>
 			</OL>
@@ -145,8 +166,8 @@
 		  </div>
 	</div>
 
-	
-   
+
+
 
  </body>
 </html>
