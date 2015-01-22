@@ -66,27 +66,50 @@
     top: auto;
   }
   #logo{
-    float: left;
-    width: 100px;
-    height: 100px;
-
+    max-width: 120px;
+    max-height: 120px;
+    display: inline-block;
+    vertical-align:middle;
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
   }
-
-  #accordion{
-    clear : both
+  #accueil{
+    display: inline-block;
+    vertical-align:middle;
+    width: auto;
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
+  }
+  #instruction{
+    text-align:center;
+    padding-bottom:30px;
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
+  }
+  #bloc{
+    text-align: center;
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
   }
 
 
   </style>
  <body>
   <header>
-    <div>
+   <div id="bloc">
     <img src="logo2.jpeg" alt="logo AF" id="logo">
-  </div>
-    <div>
+    <div id="accueil">
       <h1>Bienvenue</h1>
       <h2>Agilearning</h2>
     </div>
+    <div id="instruction">
+      Veuillez choisir le module puis la formation que vous souhaitez suivre
+    </div>
+   </div>
   </header>
 
 	<script src="jquery.js"></script>
