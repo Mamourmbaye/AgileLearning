@@ -10,6 +10,11 @@
   </title>
  </head>
 <style>
+
+@font-face {
+  font-family: 'Alfa';
+  src: url('police/alfa.ttf');
+}
   .ui-progressbar {
     position: relative;
   }
@@ -66,36 +71,70 @@
     top: auto;
   }
   #logo{
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 200px;
+    max-height: 200px;
     display: inline-block;
     vertical-align:middle;
-    /*border-width:1px;
-    border-style:dotted;
-    border-color:black;*/
   }
   #accueil{
     display: inline-block;
     vertical-align:middle;
     width: auto;
-    /*border-width:1px;
-    border-style:dotted;
-    border-color:black;*/
   }
-  #instruction{
+  #parcours{
+    color:white;
     text-align:center;
+    margin-top: 60px;
+    padding-bottom:20px;
+    padding-top: 20px;
+    background: #1e5ef7;
+    border-radius: 50000px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 7px 9px 22px 7px #BCB8B8;
+    -moz-box-shadow: 7px 9px 22px 7px #BCB8B8;
+    -webkit-box-shadow: 7px 9px 22px 7px #BCB8B8;
+  }
+  #choix{
+    color:white;
     padding-bottom:30px;
+    padding-top: 20px;
+    background: #c60d0d;
+    border-radius: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 7px 9px 22px 7px #BCB8B8;
+    -moz-box-shadow: 7px 9px 22px 7px #BCB8B8;
+    -webkit-box-shadow: 7px 9px 22px 7px #BCB8B8;
     /*border-width:1px;
     border-style:dotted;
     border-color:black;*/
   }
   #bloc{
     text-align: center;
-    /*border-width:1px;
-    border-style:dotted;
-    border-color:black;*/
+  }
+  #accordion{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: auto;
+  }
+  #centrage{
+  text-align:center;
   }
 
+  i{
+    font-family: 'Alfa', Arial, serif;
+    font-size: 1.6em;
+  }
+  h1{
+    font-family: 'Alfa', Arial, serif;
+    font-size: 2em;
+  }
+
+  h2{
+    font-family: 'Alfa', Arial, serif;
+    font-size: 2em;
+  }
 
   </style>
  <body>
@@ -103,12 +142,16 @@
    <div id="bloc">
     <img src="logo2.jpeg" alt="logo AF" id="logo">
     <div id="accueil">
-      <h1>Bienvenue</h1>
-      <h2>Agilearning</h2>
+      <h1>Welcome to</h1>
+      <h2>AGILEARNING</h2>
     </div>
-    <div id="instruction">
-      Veuillez choisir le module puis la formation que vous souhaitez suivre s'il vous plait...
+    <div id="parcours">
+      You wish to start with a personnalized training path<br><br>
+      <input type="button" name="bouton parcours" value="Start">
     </div>
+    <br>
+    <i>OR</i>
+    <br><br>
    </div>
   </header>
 
@@ -117,6 +160,11 @@
   <script src="accueil.js"></script>
 
 
+  <div id="choix">
+    <div id="centrage">
+      You prefer to choose the module and then the subject you would like to be trained on
+      <br><br>
+    </div>
  	<div id="accordion">
 		  <h3><a href="#">Basic Concepts</a></h3>
 		  <div>
@@ -187,9 +235,8 @@
 			<b><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Quiz</a></b><br><br>
 			<b><a href="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">A retenir</a></b><br>
 		  </div>
-	</div>
-
-
+    </div>
+  </div>
 
 
  </body>

@@ -4,7 +4,8 @@ $(function() {
 //Impossible de gérer a la fois collapsible: true et heightStyle: "content"
     $( "#accordion" ).accordion({
       heightStyle: "content",
-      collapsible: true
+      collapsible: true,
+      active: false
     });
   });
 
