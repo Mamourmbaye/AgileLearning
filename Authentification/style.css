@@ -1,0 +1,97 @@
+ h1
+            {
+              color: Crimson;
+              background-color:; 
+              text-align: center;
+              margin: 15px;
+            
+            }
+            
+        
+.imageflottante
+           
+			{
+    			float: ;
+    		
+			}
+body
+			{
+			
+			
+    			background-color: WhiteSmoke; 
+   	 	 
+    			border-left: 2px solid black
+    			border-right: 2px solid black
+    			border-left: 2px solid black
+    			border-right: 2px solid black
+}
+
+#titre 
+
+{	text-align= center;
+	margin: auto;
+	color: DimGray;
+   	width: 500px;
+	height: 152px;
+	position: relative;
+	
+  text-align= center;
+  }
+	
+#global
+
+{	text-align= center;
+	margin: auto;
+	background-color: WhiteSmoke; 
+	width: 600px;
+	height: 302px;
+	text-align: center;
+  	border: 3px CornflowerBlue groove;
+    border-left: 3px Crimson groove;
+    border-right: 3px Crimson groove;
+  	
+  	position: relative;
+  	
+    }
+
+
+
+#mail 
+
+{	text-align: center;
+	color: DimGray;
+	height: 100px;
+	width:600px;
+	position: absolute;
+	top:50px;
+
+    }
+
+
+footer
+{
+	position: absolute;
+    right: 50px;
+    bottom: 10px; 
+    color: CornflowerBlue
+}
+
+
+
+#LogoAsteelflash
+{
+
+margin-bottom: 15px;
+} 
+
+
+
+input
+{
+margin: 2px;
+	height: 15px;
+	width:120px;
+
+}
+
+

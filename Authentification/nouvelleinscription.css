@@ -1,0 +1,114 @@
+ h1
+            {
+              color: Crimson;
+              background-color:; 
+              text-align: center;
+              margin: 15px;
+            
+            }
+            
+        
+.imageflottante
+           
+			{
+    			float: ;
+    		
+			}
+body
+			{
+			
+			
+    			background-color: WhiteSmoke; 
+   	 	 
+    			border-left: 2px solid black
+    			border-right: 2px solid black
+    			border-left: 2px solid black
+    			border-right: 2px solid black
+}
+
+#titre 
+
+{	text-align= center;
+	margin: auto;
+	color: DimGray;
+   	width: 500px;
+	height: 102px;
+	position: relative;
+	
+  text-align= center;
+  }
+	
+#global
+
+{	text-align= center;
+	margin: auto;
+	background-color: WhiteSmoke; 
+	width: 600px;
+	height: 352px;
+	text-align: center;
+  	border: 3px CornflowerBlue groove;
+    border-left: 3px Crimson groove;
+    border-right: 3px Crimson groove;
+  	
+  	position: relative;
+  	
+    }
+
+
+
+#mail 
+
+{	
+	color: DimGray;
+	height: 100px;
+	width:600px;
+	position: absolute;
+	top:0px;
+	left:0px;
+
+    }
+
+
+footer
+{
+	position: absolute;
+    right: 50px;
+    bottom: 10px; 
+    color: CornflowerBlue
+}
+
+
+
+#LogoAsteelflash
+{
+
+margin-bottom: 15px;
+} 
+
+
+
+input
+{
+margin: 5px;
+height: 15px;
+width:175px;
+}
+
+
+p
+{
+margin: 5px;
+
+}
+
+select
+
+{
+height: 15px;
+width:180px;
+}
+
+#tb_email
+{
+width:73px;
+}
