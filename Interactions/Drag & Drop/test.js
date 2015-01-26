@@ -14,11 +14,11 @@ $(function() {
 	});
 
 // Clignotement lors du drag
-	/*$( ".draggable" ).mouseover(function() {
+	$( ".draggable" ).mouseover(function() {
 		$( this ).fadeOut( 100 );
 		$( this ).fadeIn( 500 );
 	});
-	*/
+
 //Vérification si toutes les ID des éléments droppés matchent avec le texte écrit à l'intérieur
 	$('#verify').click(function(){
 		var all=true;
