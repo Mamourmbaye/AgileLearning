@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Recherche</title>
+  <style type="text/css">
+   
+	#cadreglobal{
+      width: 1350px;
+      height: 737px;
+	  margin : auto; 
+      border: 3px black solid;
+      overflow: hidden;
+      position: relative;
+    }
+	#entete{
+      width: 1350px;
+      height: 30px;
+	  margin : auto; 
+      overflow: hidden;
+      position: relative;
+    }
+	#textentete{
+		position: absolute;
+		z-index: 110;
+		top: 4px; 
+		left: 40px;
+		height: 20px; 
+		text-align: center;
+		font-weight: bold;
+		color: #ffffff; 
+		font-size: large;
+	}
+	#baspage{
+      width: 1350px;
+      height: 30px;
+	  margin : auto; 
+      overflow: hidden;
+      position: relative;
+    }
+	#textbas{
+		position: absolute;
+		z-index: 110;
+		top: 4px; 
+		left: 200px;
+		height: 20px; 
+		text-align: center;
+		font-weight: bold;
+		color: #ffffff; 
+		font-size: large;
+	}
+	#module{
+      width: 1350px;
+      height: 675px;
+	
+	  margin : auto; 
+      border: 1px black solid;
+      overflow: hidden;
+      position: relative;
+    }
+    #fond{
+      z-index: 10;
+      position: absolute;
+	  top: 0px; 
+      left: 0px;
+    }
+    #bouton1{
+      z-index: 100; 
+      position: absolute; 
+      top: 5px; 
+      left: 1294px;
+    }
+	#bouton2{
+      z-index: 100; 
+      position: absolute; 
+      top: 67px; 
+      left: 400px;
+    }
+	#bouton3{
+      z-index: 100; 
+      position: absolute; 
+      top: 132px; 
+      left: 290px;
+    }
+	#bouton4{
+      z-index: 100; 
+      position: absolute; 
+      top: 67px; 
+      left: 540px;
+    }
+	#bouton5{
+      z-index: 100; 
+      position: absolute; 
+      top: 202px; 
+      left: 425px;
+    }
+	#bouton6{
+      z-index: 100; 
+      position: absolute; 
+      top: 125px; 
+      left: 400px;
+    }
+	#bouton7{
+      z-index: 100; 
+      position: absolute; 
+      top: 248px; 
+      left: 320px;
+    }
+	#bouton8{
+      z-index: 100; 
+      position: absolute; 
+      top: 355px; 
+      left: 1258px;
+    }
+	#bouton9{
+      z-index: 100; 
+      position: absolute; 
+      top: 558px; 
+      left: 297px;
+    }
+	#bouton10{
+      z-index: 100; 
+      position: absolute; 
+      top: 123px; 
+      left: 385px;
+    }
+	#homme{
+      z-index: 100; 
+      position: absolute; 
+      top: 170px; 
+      left: 460px;
+    }
+	#bulle1{
+      z-index: 100; 
+      position: absolute; 
+      top: 20px; 
+      left: 650px;
+    }
+	#quitter1{
+      z-index: 110; 
+      position: absolute; 
+      top: 55px; 
+      left: 850px;
+    }
+	#texte1{
+		position: absolute;
+		z-index: 110;
+		top: 68px; 
+		left: 680px;
+		black:  font-size: 
+		x-large; 
+		font-weight: bold;
+	}
+	#cadre { 
+		z-index: 100; 
+		position: absolute; 
+		left: 570px; 
+		top: 122px;
+		width: 100px;
+		height:34px;
+	} 
+	#text { 
+		position:relative;  
+		height:30%; 
+		width:150% 
+	}
+	
+	
+    
+  </style>
+</head>
+
+<body>
+  <div id="cadreglobal">
+  <div id="entete">
+		<img  src="haut.png">
+		<DIV id=textentete> Objectif: Rechercher un Item 'Material' comportant une AML dans laquelle le fournisseur YAGEO est présent </DIV>
+  </div>
+    <div id="module">
+	<img id="fond" src="Capture00_resultat.jpg">
+    <img id="bouton1"  src="redpetit.png">
+	<img id="bouton2"  src="redpetit.png">
+	<img id="bouton3"  src="red.png">
+	<img id="bouton4"  src="redpetit.png">
+	<img id="bouton5"  src="red.png">
+	<img id="bouton6"  src="redpetit.png">
+	<img id="bouton7"  src="red.png">
+	<img id="bouton8"  src="redpetit.png">
+	<img id="bouton9"  src="red.png">
+	<img id="bouton10"  src="redpetit.png">
+	<img id="homme"  src="homme.png">
+	<img id="bulle1"  src="bulle.png">
+	<img id="quitter1"  src="quitter.png">
+	<DIV id=texte1> &nbsp;&nbsp;Bienvenue sur Agile !!<br>Il est temps de travailler les<br> &nbsp;&nbsp; recherches sur un exemple <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;simple. </DIV> 
+	<div id="cadre"><input type="text" id="text" value=""/></div>
+	</div>
+	<div id="baspage">
+		<img  src="bas.png">
+		<DIV id=textbas>  Tâche: Fermer la bulle  </DIV>
+  </div>
+  </div>
+  
+  <script src="jquery-1.11.2.js"></script>
+  <script>
+ 
+ 
+ $("#bouton1").hide();
+ $("#bouton2").hide();
+ $("#bouton3").hide();
+ $("#bouton4").hide();
+ $("#bouton5").hide();
+ $("#bouton6").hide();
+ $("#bouton7").hide();
+ $("#bouton8").hide();
+ $("#bouton9").hide();
+ $("#bouton10").hide();
+ $("#cadre").hide();
+   
+ 
+   
+   $("#quitter1").click ( function() {
+		 $("#fond").attr('src', 'Capture0_resultat.jpg');
+		 $("#homme").hide();
+		 $("#quitter1").hide();
+		 $("#bulle1").hide();
+		 $("#texte1").hide();
+		 $("#bouton1").show();
+		$('#textbas').text("Ouvrir l'interface de recherche : loupe dans le coin supérieur à droite");
+	});
+	
+   $("#bouton1").click ( function() {
+		 $("#fond").attr('src', 'Capture1_resultat.jpg');
+		 $("#bouton1").hide();
+		 $("#bouton2").show();
+		 $('#textbas').text("Choisir une recherche d'Item");
+		});
+	
+	$("#bouton2").click ( function() {
+		 $("#fond").attr('src', 'Sans titre0_resultat.png');
+		 $("#bouton2").hide();
+		 $("#bouton3").show();
+	});
+	$("#bouton3").click ( function() {
+		 $("#fond").attr('src', 'Capture2_resultat.jpg');
+		 $("#bouton3").hide();
+		 $("#bouton4").show();
+		 $('#textbas').text('Choisir le type : Row Material');
+	});
+	$("#bouton4").click ( function() {
+		 $("#fond").attr('src', 'Sans titre1_resultat.png');
+		 $("#bouton4").hide();
+		 $("#bouton5").show();
+	});
+	$("#bouton5").click ( function() {
+		 $("#fond").attr('src', 'Capture3_resultat.jpg');
+		 $("#bouton5").hide();
+		 $("#bouton6").show();
+		 $('#textbas').text("Choisir l'attribut sur lequel on appliquera le critère : Mfr. Name");
+	});
+	$("#bouton6").click ( function() {
+		 $("#fond").attr('src', 'Sans titre2_resultat.png');
+		 $("#bouton6").hide();
+		 $("#bouton7").show();
+	});
+	$("#bouton7").click ( function() {
+		 $("#fond").attr('src', 'Capture4_resultat.jpg');
+		 $("#bouton7").hide();
+		 $("#bouton8").show();
+		 $("#cadre").show();
+		 $('#textbas').text('Taper la valeur du critère : YAGEO. Lancer ensuite la recherche');
+	});
+	$("#bouton8").click ( function() {
+		 $("#fond").attr('src', 'Capture5_resultat.jpg');
+		 $("#bouton8").hide();
+		 $("#bouton9").show();
+		 $("#cadre").hide();
+		 $('#textbas').text("Entrer dans l'Item M0000001101");
+	});
+	$("#bouton9").click ( function() {
+		 $("#fond").attr('src', 'Capture6_resultat.jpg');
+		 $("#bouton9").hide();
+		 $("#bouton10").show();
+		 $('#textbas').text("Entrer dans l'AML de l'Item et vérifier que le fabricant YAGEO y apparait");
+	});
+	$("#bouton10").click ( function() {
+		 $("#fond").attr('src', 'Capture7_resultat.jpg');
+		$("#bouton10").hide();
+		$('#textbas').text('Félicitation !!!');
+	});
+	
+	  
+  </script>
+</body>
+</html>
