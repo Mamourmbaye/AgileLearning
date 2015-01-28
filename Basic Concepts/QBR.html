@@ -73,8 +73,11 @@
       QUIZ
     </div>
 
+    <button id="verify">Check my results</button>
     <form>
-    <a href="">Check my results</a>
+    <!--<a href="">Check my results</a>
+    Il faut savoir qu'une balise 'a' qui n'a pas de lien défini renvoie vers ta page courante, comme elle est rechargée le script et mis à zéro.
+    Il vaut mieux alors mettre un bouton-->
 	<span class="score"></span>
 
   <div class="bloc">
@@ -128,7 +131,7 @@
 
 
         // Action au survol du lien « Tester les réponses »
-        $('a').hover(
+        $('#verify').click(
           function() {
 
           	var score = 0;
@@ -162,6 +165,7 @@
               $('#reponse3').css('color', 'red');
             }
 
+
             var Q = $('#r11').val().toLowerCase();
         	var B = $('#r12').val().toLowerCase();
         	var R = $('#r13').val().toLowerCase();
@@ -179,11 +183,10 @@
 
 
             var T = $('#r14').val().toLowerCase();
-			var n = T.search("tracabilité");
-			var m = T.search("traçabilité");
-			var o = T.search("tracabilite");
-			var p = T.search("traçabilite");
-
+			      var n = T.search("tracabilité");
+			      var m = T.search("traçabilité");
+			      var o = T.search("tracabilite");
+			      var p = T.search("traçabilite");
 
             if (n>=0||m>=0||o>=0||p>=0) {
               $('#img5').attr('src', 'bon.png');
@@ -194,17 +197,16 @@
               $('#img5').attr('src', 'mauvais.png');
               $('#reponse5').css('color', 'red');
             }
-
             $('.score').text("Votre score est "+score+"/5");
 
-          },
-          function() {
+          }
+/*          function() {
             $('.reponse').hide();
             $('img').each(function() {
               $(this).attr('src', 'question.png');
           });
 }
-
+*/
         );
       });
     </script>
