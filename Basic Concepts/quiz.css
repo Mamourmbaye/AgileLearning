@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Alfa';
+  src: url('police/alfa.ttf');
+}
+.score{
+  text-align:center;
+}
+.question{
+  background-color: #c60d0d;
+  color: white;
+  padding-top: 0px;
+  padding-bottom:0px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left: 20px;
+  padding-right: 100px;
+  border-radius: 120px;
+  display:inline-block;
+  vertical-align:middle;
+  width:700px;
+  background: #c60d0d;
+  border-radius: 120px;
+  box-shadow: 7px 9px 22px 7px #BCB8B8;
+  -moz-box-shadow: 7px 9px 22px 7px #BCB8B8;
+  -webkit-box-shadow: 7px 9px 22px 7px #BCB8B8;
+}
+#validation{
+  padding-top:20px;
+}
+#verify{
+  display: block;
+  margin : auto;
+}
+h2{
+  padding-left:0px;
+  font-family: 'Alfa', Arial, serif;
+  font-size: 5em;
+  display:inline-block;
+  vertical-align:middle;
+}
+.corps{
+  display:inline-block;
+  vertical-align: middle;
+  margin-left:100px;
+  margin-right:0px;
+}
+#titre{
+  color:white;
+  text-align:center;
+  margin-top: 60px;
+  margin-bottom:30px;
+  padding-bottom:10px;
+  padding-top: 20px;
+  background: #1e5ef7;
+  border-radius: 50000px;
+  font-family: 'Alfa', Arial, serif;
+  font-size: 5em;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 120px;
+  box-shadow: 7px 9px 22px 7px #BCB8B8;
+  -moz-box-shadow: 7px 9px 22px 7px #BCB8B8;
+  -webkit-box-shadow: 7px 9px 22px 7px #BCB8B8;
+}
+
+/*modifier postion des images par rapport à la droite et mettre des image en png trasnparentes*/
+#img1, #img2, #img3,#img4,#img5{
+  display: inline-block;
+  max-height: 150px;
+  vertical-align: middle;
+}
+.bloc{
+  margin-left:300px
+}
+.reponse{
+  background: white;
+  border-radius: 120px;
+  padding:10px;
+}

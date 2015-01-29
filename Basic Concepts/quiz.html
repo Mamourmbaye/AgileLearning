@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic Concepts Quiz</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.js" rel="stylesheet" type="text/css">
+  </head>
+  <link rel="stylesheet" media="screen" type="text/css" title="quiz" href="quiz.css"/>
+
+  <body>
+
+    <div id="titre">
+      QUIZ
+    </div>
+
+    <div class="score"></div>
+    <form>
+    <!--<a href="">Check my results</a>
+    Il faut savoir qu'une balise 'a' qui n'a pas de lien défini renvoie vers ta page courante, comme elle est rechargée le script et mis à zéro.
+    Il vaut mieux alors mettre un bouton
+    IMPORTANT : METTRE UN SYSTEME PERMETTANT DE VERIFIER QUE DES REPONSES ONT ETE COCHEES-->
+
+
+
+  <div class="bloc">
+    <div class="question">
+        <h2>Q1</h2>
+        <div class="corps">
+          What is the main advantage of using a PLM ?<br><br>
+          <input type="radio" id="r1" name="q1">To monitor employees' work<br>
+          <input type="radio" id="r2" name="q1">To harmonize data<br>
+          <input type="radio" id="r3" name="q1">To track supplier's quality issues<br>
+          <input type="radio" id="r4" name="q1">To save on procurement<br>
+          <br><div class="reponse" id="reponse1">A PLM allows, on top of a data centralization, a data<br>harmonization through all Asteelflash sites.</div>
+        </div>
+
+    </div>
+    <img id="img1" src="question.png" />
+  </div>
+  <div class="bloc">
+    <div class="question">
+        <h2>Q2</h2>
+        <div class="corps">
+          Find the intruder among these reasons for a unique codification.<br><br>
+          <input type="radio" id="r5" name="q2">Inventory optimization<br>
+          <input type="radio" id="r6" name="q2">Standardize GMSCM component<br>
+          <input type="radio" id="r7" name="q2">Standardize components' caracteristics<br>
+          <input type="radio" id="r8" name="q2">Standardize suppliers' inventories<br>
+          <br><div class="reponse" id="reponse2">The intruder among these propositions is "Standardize<br>supplier' inventory" because PLM doesn't allow this.</div>
+        </div>
+    </div>
+    <img id="img2" src="question.png" />
+  </div>
+  <div class="bloc">
+    <div class="question">
+      <h2>Q3</h2>
+      <div class="corps">
+        What is an UPN ?<br><br>
+        <input type="radio" id="r9" name="q3">Universal Patern Notification<br>
+        <input type="radio" id="r10" name="q3">Union Partner Note<br>
+        <input type="radio" id="r11" name="q3">Universal Part Number<br>
+        <br><div class="reponse" id="reponse3">UPN stands for Universal Part Number.</div>
+      </div>
+    </div>
+    <img id="img3" src="question.png" />
+  </div>
+  <div class="score"></div>
+  <div class="bloc">
+    <div class="question">
+      <h2>Q4</h2>
+      <div class="corps">
+        What is an AML ?<br><br>
+        <input type="radio" id="r12" name="q4">A list of couples MFR - MPN of an UPN<br>
+        <input type="radio" id="r13" name="q4">An assembly of universal part<br>
+        <input type="radio" id="r14" name="q4">A group of MFR<br>
+        <br><div class="reponse" id="reponse4">AML stands for Approved Manufacturer List and it is<br>a list of couples MFR - MPN of an UPN.</div>
+      </div>
+    </div>
+    <img id="img4" src="question.png" />
+  </div>
+  <div class="bloc">
+    <div class="question">
+      <h2>Q5</h2>
+      <div class="corps">
+        What a project is made of ?<br><br>
+        <input type="radio" id="r15" name="q5">Resources management<br>
+        <input type="radio" id="r16" name="q5">Step - Tasks - Gates<br>
+        <input type="radio" id="r17" name="q5">Customers' internal AML<br>
+        <br><div class="reponse" id="reponse5">Resources management as well as planning management are<br>part of a project. "Step - Tasks - Gates" doesn't exist. On the contrary,<br>Phases - Tasks - Gates does and projects are made of it.</div>
+      </div>
+    </div>
+    <img id="img5" src="question.png" />
+  </div>
+  <div id="validation">
+    <div class="score"></div><br>
+    <input type="button" id="verify" value=" Click here to check your anwers"/>
+
+  </div>
+    </form>
+
+
+    <script src="jquery.js"></script>
+    <script src= "quiz.js"></script>
+  </body>
+</html>
