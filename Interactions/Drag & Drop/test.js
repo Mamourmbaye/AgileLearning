@@ -1,5 +1,5 @@
 $(function() {
-
+	$("#next").hide();
 
 // Définition des éléments draggables/droppable ainsi que l'événement d'écriture qui survient lors d'un drop
 	$(".draggable").draggable();
@@ -8,15 +8,21 @@ $(function() {
       $(this).addClass("ui-state-highlight").find("p").html("Dropped!");
     },*/
     drop: function(event, ui) {
-      $('.display').html( this.id );
+      //$('.display').html( this.id );
       $('.verif', this).text(ui.draggable.select('p', this).text());
     }
 	});
 
 // Clignotement lors du drag
-	$( ".draggable" ).mouseover(function() {
+	$( ".draggable" ).hover(function() {
+	/*
 		$( this ).fadeOut( 100 );
 		$( this ).fadeIn( 500 );
+	*/
+		$('.display').html($(this).find('p').text());
+		$('.display').fadeIn(100);
+	},function(){
+		$('.display').fadeOut(100);
 	});
 
 //Vérification si toutes les ID des éléments droppés matchent avec le texte écrit à l'intérieur
@@ -37,9 +43,10 @@ $(function() {
 
 		//On effectue un test global
 		if(all){
-			$('#correction p:first').text("Test reussi ! Bravo");
+			$('#correction p:first').text("Well Done !");
+			$('#next').show();
 		}else{
-			$('#correction p:first').text("Corrigez vous pour passer à la suite...");
+			$('#correction p:first').html("You made some mistakes, correct them ! <br/> <i>Note that only the last dropped item is taken into account</i>");
 		}
 	});
 
