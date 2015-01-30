@@ -40,11 +40,18 @@ body
 	background-color: WhiteSmoke; 
 	float: left;
     text-align: center;
+<<<<<<< Updated upstream
 }
 
 #pieddepage
 
 {
+=======
+	}
+
+
+#pieddepage{
+>>>>>>> Stashed changes
 	background-color:DimGray;
 	position: absolute;
 	top:465px;
@@ -67,8 +74,12 @@ body
 	width:145px;
 }
 
+<<<<<<< Updated upstream
     
     
+=======
+  
+>>>>>>> Stashed changes
 #instructions
 {
 	background-color: WhiteSmoke; 
@@ -80,8 +91,13 @@ body
     text-align: center;
     color:CornflowerBlue;
     Padding-top: 3px; 
+<<<<<<< Updated upstream
     }
     
+=======
+    }  
+
+>>>>>>> Stashed changes
 #help
 {
 	
@@ -94,8 +110,11 @@ body
 	width:150px;
 }
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 #suivant
 {
 position: absolute;
@@ -106,6 +125,9 @@ position: absolute;
    	height: 35px;
 	width:150px;
 }
+
+
+
 
 #titremodule
 {
@@ -139,7 +161,7 @@ position: absolute;
 
 #titre
 {
-position: absolute;
+	position: absolute;
 	top:-14px;
 	left:20px;
 	text-align: center;
@@ -148,7 +170,7 @@ position: absolute;
 
 #soustitre
 {
-position: absolute;
+	position: absolute;
 	top:-14px;
 	left:20px;
 	text-align: center;
