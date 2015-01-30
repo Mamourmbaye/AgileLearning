@@ -46,9 +46,9 @@ body
 	width: 600px;
 	height: 352px;
 	text-align: center;
-  	border: 3px CornflowerBlue groove;
-    border-left: 3px Crimson groove;
-    border-right: 3px Crimson groove;
+  	border: 4px CornflowerBlue groove;
+    border-left: 4px Crimson groove;
+    border-right: 4px Crimson groove;
   	
   	position: relative;
   	
@@ -74,7 +74,7 @@ footer
 	position: absolute;
     right: 50px;
     bottom: 10px; 
-    color: CornflowerBlue
+    color: CornflowerBlue;
 }
 
 
