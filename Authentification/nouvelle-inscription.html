@@ -41,8 +41,7 @@
 			<td>        
      <form method="post" action="traitement.php">
    				<p>
-   				
-       					<select name="Title" id="Title">
+       					<select name="Title" id="Title" class="tailleM">
            					<option value="Title">  Title  </option>
            					<option value="Miss">Miss</option>
            					<option value="Mr.">Mr.</option>
@@ -53,21 +52,21 @@
 			</td>
         </tr>
         <tr>
-            <td>
-            	<input name="tb_nom" type="text" maxlength="50" id="tb_nom" class="tip half" placeholder="Name" /> 
+            <td >
+            	<input name="tb_nom" type="text" maxlength="50" id="tb_nom" class="tip half tailleP" placeholder="Name" /> 
             </td>
         </tr>
          
          
          <tr>
-            <td>
-                <input name="tb_prenom" type="text" maxlength="50" id="tb_prenom" class="tip half" placeholder="First name" />
+            <td >
+                <input name="tb_prenom" type="text" maxlength="50" id="tb_prenom" class="tip half tailleP" placeholder="First name" />
             </td>
         </tr>
        
         <tr >
         	<td>
-                <input name="tb_email" type="text" maxlength="256" id="tb_email" class="tip" autocomplete="off" placeholder="E-mail"  />
+                <input name="tb_email" type="text" maxlength="256" id="tb_email" class="tip tailleP" autocomplete="off" placeholder="E-mail"  />
                 @asteelflash.fr
               
             </td>
@@ -79,7 +78,7 @@
     			 <form method="post" action=".php">
    				<p>
    				
-       					<select name="Site" id="Site">
+       					<select name="Site" id="Site" class="tailleM">
            					<option value="Site">  Site  </option>
            					<option value="Chine">Chine</option>
            					<option value="France">France</option>
@@ -101,7 +100,7 @@
      <form method="post" action="traitement.php">
    				<p>
    				
-       					<select name="Langue" id="langue">
+       					<select name="Langue" id="langue" class="tailleM">
            					<option value="Language">  Language  </option>
            					<option value="Arabic">Arabe</option>
            					<option value="Anglais"> Anglais  </option>
@@ -117,7 +116,7 @@
         </tr>
          <tr>
 			<td>
-			<button type="input" onclick="self.location.href='Accueil/accueil.html'">Valider</button> 
+			<button type="input" class="tailleP" onclick="self.location.href='Accueil/accueil.html'" >Valider</button> 
 			
 			</td>
         </tr>

@@ -1,35 +1,34 @@
+footer{
+	position :absolute;
+	height:50px;
+	width:100%;
+	top:660px;
+	color: CornflowerBlue
+}
+
 body
-{
-	background-color: WhiteSmoke; 
-	border-left: 2px solid black
-	border-right: 2px solid black
-    			
+{			
+    background-color: WhiteSmoke; 	 
+    border-left: 2px solid black
+    border-right: 2px solid black   			
 }
 
 
-#global
-
-{	
-	text-align= center;
+#global{
+	text-align: center;
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom:100px;
 	background-color: WhiteSmoke; 
 	width: 1100px;
 	height: 502px;
-	text-align: center;
     border: 4px solid DimGray;
-  
   	position: relative;
-  }
+    }
 
 
 
-
-
-#centre
-
-{ 
+#centre{ 
 	position: absolute;
 	top:49px;
 	left:0px;
@@ -40,18 +39,9 @@ body
 	background-color: WhiteSmoke; 
 	float: left;
     text-align: center;
-<<<<<<< Updated upstream
-}
-
-#pieddepage
-
-{
-=======
 	}
-
-
+	
 #pieddepage{
->>>>>>> Stashed changes
 	background-color:DimGray;
 	position: absolute;
 	top:465px;
@@ -60,26 +50,25 @@ body
     text-align: center;
     height: 40px;
 	width:1100px;
+	}
+
+button{
+	z-index:1000;
+	border-radius:5px;
+	background-color:white;
 }
 
-
-
 #home 
-{
+	{
 	position: absolute;
 	top:3px;
 	left:0px;
     text-align: center;
    	height: 35px;
-	width:145px;
-}
-
-<<<<<<< Updated upstream
+	width:150px;
+    }
     
     
-=======
-  
->>>>>>> Stashed changes
 #instructions
 {
 	background-color: WhiteSmoke; 
@@ -90,17 +79,10 @@ body
 	width:640px;
     text-align: center;
     color:CornflowerBlue;
-    Padding-top: 3px; 
-<<<<<<< Updated upstream
+    Padding-top: 3px;  
     }
     
-=======
-    }  
-
->>>>>>> Stashed changes
-#help
-{
-	
+#help {
 	position: absolute;
 	top:3px;
 	left:796px;
@@ -110,14 +92,9 @@ body
 	width:150px;
 }
 
-<<<<<<< Updated upstream
 
-
-=======
->>>>>>> Stashed changes
-#suivant
-{
-position: absolute;
+#suivant{
+	position: absolute;
 	top:3px;
 	left:950px;
    text-align: center;
@@ -125,9 +102,6 @@ position: absolute;
    	height: 35px;
 	width:150px;
 }
-
-
-
 
 #titremodule
 {
@@ -161,7 +135,7 @@ position: absolute;
 
 #titre
 {
-	position: absolute;
+position: absolute;
 	top:-14px;
 	left:20px;
 	text-align: center;
@@ -170,18 +144,10 @@ position: absolute;
 
 #soustitre
 {
-	position: absolute;
+position: absolute;
 	top:-14px;
 	left:20px;
 	text-align: center;
 
 }
-
-
-
-
-
-
- 
-
  

@@ -7,11 +7,6 @@
 }
             
         
-.imageflottante
-           
-{
-	float: ;
-}
 
 body
 {			
@@ -78,13 +73,20 @@ footer
 
 
 
-.button
-{
-	margin: 2px;
-	width:120px;
+button{
+	width:125px;
+	z-index:1000;
+	border-radius:5px;
+	background-color:white;
 }
 
+input
+{
+margin:1px;
+padding:7;
+width:140px;
 
+} 
 
 
 

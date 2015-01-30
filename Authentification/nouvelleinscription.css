@@ -81,29 +81,36 @@ margin-bottom: 15px;
 
 input
 {
+width:172px;
 margin:1px;
-padding:7;
-padding-left:20px;
-padding-right:20px;
-
 } 
 
-button
-
+.tailleM
 {
-margin:1px;
-padding:5px;
-
-} 
-
+font-size:2em;
+}
+.tailleP
+{
+font-size:0.8em;
+}
 select
 
 {
-height: 15px;
+
 width:180px;
 }
 
 #tb_email
 {
 width:73px;
+}
+
+
+
+button{
+	width:100px;
+	
+	border-radius:5px;
+	background-color:white;
+
 }
