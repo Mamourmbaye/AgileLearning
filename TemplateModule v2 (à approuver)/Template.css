@@ -1,0 +1,154 @@
+body
+{
+    background-color: White;  	 
+}
+
+
+#global
+
+{	
+	margin: auto;
+	background-color: White; 
+	width: 1350px;
+	height: 737px;
+	text-align: center;
+    border: 3px solid DimGray;
+  	position: relative;
+  	
+    }
+
+
+#entête
+	{
+	position: relative;
+	background-color:DimGray;
+    text-align: center;
+	
+    height: 40px;
+	width:1350px;
+    margin : auto;
+	overflow: hidden;
+	}
+
+#centre
+
+	{ 
+	position: relative;
+	height: 660px;
+	width:1350px;
+	
+	margin : auto; 
+      border: 1px solid DimGray;
+      overflow: hidden;
+	}
+#pieddepage
+
+	{
+	position: relative;
+	background-color:DimGray;
+    height: 35px;
+	width:1350px;
+	margin : auto; 
+      overflow: hidden;
+	}
+
+
+
+#home 
+	{
+	position: absolute;
+	top:6px;
+	left:15px;
+    text-align: center;
+   	height: 35px;
+	width:60px;
+    }
+    
+    
+#instructions
+{
+	background-color: WhiteSmoke; 
+	position: absolute;
+	top:2px;
+	left:250px;
+	height: 35px;
+	width:850px;
+    text-align: center;
+    color:CornflowerBlue;
+    Padding-top: 3px; 
+	
+    }
+    
+#help
+{
+	
+	position: absolute;
+	top:6px;
+	left:1200px;
+	text-align: center;
+	color: CornflowerBlue;
+	height: 35px;
+	width:60px;
+}
+
+
+#suivant
+{
+position: absolute;
+	top:6px;
+	left:1278px;
+   text-align: center;
+   color:Crimson;
+   	height: 35px;
+	width:60px;
+}
+
+#titremodule
+{
+	position: absolute;
+	text-align: center;
+	line-height:38px;
+	top:0px;
+	left:1px;
+	background-color: WhiteSmoke; 
+	height: 38px;
+	width:350px;
+	color:Crimson;
+    text-align: center;
+   
+}
+#titresousmodule
+
+{	position: absolute;
+	top:0px;
+	left:355px;
+	background-color: WhiteSmoke; 
+	color: CornflowerBlue;
+    text-align: center;
+	line-height:38px;
+    margin: auto;	
+    height: 38px;
+	width:746px;
+	
+
+}
+
+
+
+#LogoAsteelflash
+{
+position: absolute;
+	top:0px;
+	left:1105px;
+	background-color: WhiteSmoke; 
+    margin: auto;	
+    height: 38px;
+	width:246px;
+	text-align: center;
+}    
+ 
+ footer
+{	
+	
+    color: CornflowerBlue
+}

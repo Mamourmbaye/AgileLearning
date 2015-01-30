@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Scratch to learn</title>
+
+  <!-- filestart
+  <link rel="icon" type="image/vnd.microsoft.icon"  href="./demo/img/favicon.ico" />
+  <link rel="Stylesheet" type="text/css" href="./demo/demo.css" />
+-->
+  <script type="text/javascript" src="./lib/jquery.1.11.0.min.js"></script>
+  <!-- fileend -->
+</head>
+
+<body>
+
+  <div id="content">
+    <h1 id="plugin-name">wScratchPad.js</h1>
+
+    <div class="content-box">
+
+      <h3>Scratch this image to see the structure of an AML</h3>
+      <div id="demo2" class="scratchpad"></div>
+      <div id="demo2-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo2').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo2').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo2').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo2').wScratchPad('enable', false);"/>
+
+      <style>
+      .scratchpad{
+        width: 550px;
+        height: 150px;
+        border: solid 1px;
+      }
+
+      @media (max-width: 500px) {
+        .scratchpad {
+          width: 65%;
+        }
+
+      }
+      </style>
+
+      <script type="text/javascript" src="./src/wScratchPad.js"></script>
+      <script type="text/javascript">
+
+      $('#demo2').wScratchPad({
+        bg: './images/AML.png',
+        fg: './images/slide1.jpg',
+        'cursor': 'url("./cursors/coin.png") 10 10, default',
+        scratchMove: function (e, percent) {
+          $('#demo2-percent').html(percent);
+
+          if (percent > 70) {
+            this.clear();
+          }
+        }
+      });
+    </script>
+
+  </div>
+</div>
+</body>
+
+</html>

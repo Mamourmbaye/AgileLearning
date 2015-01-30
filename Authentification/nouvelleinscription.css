@@ -7,13 +7,7 @@
             
             }
             
-        
-.imageflottante
-           
-			{
-    			float: ;
-    		
-			}
+
 body
 			{
 			
@@ -46,9 +40,9 @@ body
 	width: 600px;
 	height: 352px;
 	text-align: center;
-  	border: 3px CornflowerBlue groove;
-    border-left: 3px Crimson groove;
-    border-right: 3px Crimson groove;
+  	border: 4px CornflowerBlue groove;
+    border-left: 4px Crimson groove;
+    border-right: 4px Crimson groove;
   	
   	position: relative;
   	
@@ -74,32 +68,33 @@ footer
 	position: absolute;
     right: 50px;
     bottom: 10px; 
-    color: CornflowerBlue
+    color: CornflowerBlue;
 }
 
 
 
 #LogoAsteelflash
 {
-
 margin-bottom: 15px;
+
 } 
-
-
 
 input
 {
-margin: 5px;
-height: 15px;
-width:175px;
-}
+margin:1px;
+padding:7;
+padding-left:20px;
+padding-right:20px;
 
+} 
 
-p
+button
+
 {
-margin: 5px;
+margin:1px;
+padding:5px;
 
-}
+} 
 
 select
 

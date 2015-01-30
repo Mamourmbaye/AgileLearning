@@ -18,46 +18,50 @@
 
     <div id="global" >
       Drag each article to its corresponding UPN and click on verify when you are done ! <br>
-      ID of target: <span class="display"></span>
+      <strong><span class="display"></span></strong>
       <br>
 
       <div id="dragLine">
         <div id="draggable1" class="draggable ui-widget-content">
           <img src="image\resistance.jpg"/>
-          <p>Resistance</p>
+          <p class='cache'>A Specific Resistance</p>
         </div>
         <div id="draggable2" class="draggable ui-widget-content">
-          <p>Electronic card</p>
+          <img src="image\card.jpg"/>
+          <p class='cache'>An Electronic card</p>
         </div>
         <div id="draggable3" class="draggable ui-widget-content">
-          <p>SAV</p>
+          <img src="image\sav.jpg"/>
+          <p class='cache'>A Customer Service</p>
         </div>
         <div id="draggable4" class="draggable ui-widget-content">
-          <p>Ensemble des resistances</p>
+          <img src="image\capa.jpg"/>
+          <p class='cache'>Electrolytic capacitors</p>
         </div>
         <div id="draggable5" class="draggable ui-widget-content">
-          <p>Document de fabrication</p>
+          <img src="image\doc.png"/>
+          <p class='cache'>A Manufacturing Document</p>
         </div>
       </div>
 
       <br class="clear">
 
     <div id="dropline">
-      <div id="SAV" class="droppable ui-widget-header">
+      <div id="A Customer Service" class="droppable ui-widget-header">
         L0056799001
-        <p class="verif"></p>
+        <p class='cache verif'></p>
       </div>
-      <div id="Resistance" class="droppable ui-widget-header">
+      <div id="A Specific Resistance" class="droppable ui-widget-header">
         M0237107301
-        <p class="verif"></p>
+        <p class='cache verif'></p>
       </div>
-      <div id="Document de fabrication" class="droppable ui-widget-header">
+      <div id="A Manufacturing Document" class="droppable ui-widget-header">
         D0014567803
-        <p class="verif"></p>
+        <p class='cache verif'></p>
       </div>
-      <div id="Electronic card" class="droppable ui-widget-header">
+      <div id="An Electronic card" class="droppable ui-widget-header">
         B0234851001
-        <p class="verif"></p>
+        <p class='cache verif'></p>
       </div>
 
     </div>
@@ -65,9 +69,11 @@
     <br class="clear">
 
     <div id="correction">
-    	<button id="verify">Tester vos réponses</button>
+    	<button id="verify">Verify</button>
     	<p><p>
     </div>
+
+    <button id="next">Go to the next page</button>
 
 
 

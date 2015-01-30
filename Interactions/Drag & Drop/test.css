@@ -25,10 +25,9 @@ img {
 }
 
 /* Propriété CSS du texte à l'intérieur des draggable */
-.verif{
+.cache{
   visibility : hidden;
 }
-
 
 .draggable {
   width: 100px;
@@ -38,6 +37,10 @@ img {
   display: inline-block;
   margin: 10px 10px 10px 0;
   border-radius : 4px;
+}
+
+#next{
+  float : right;
 }
 
 .droppable {
@@ -52,5 +55,6 @@ img {
   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 }
 
-#dropline{
+#dragLine p{
+  font-size : 0.8em;
 }
