@@ -1,34 +1,35 @@
-footer{
-	position :absolute;
-	height:50px;
-	width:100%;
-	top:660px;
-	color: CornflowerBlue
-}
-
 body
-{			
-    background-color: WhiteSmoke; 	 
-    border-left: 2px solid black
-    border-right: 2px solid black   			
+{
+	background-color: WhiteSmoke; 
+	border-left: 2px solid black
+	border-right: 2px solid black
+    			
 }
 
 
-#global{
-	text-align: center;
+#global
+
+{	
+	text-align= center;
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom:100px;
 	background-color: WhiteSmoke; 
 	width: 1100px;
 	height: 502px;
+	text-align: center;
     border: 4px solid DimGray;
+  
   	position: relative;
-    }
+  }
 
 
 
-#centre{ 
+
+
+#centre
+
+{ 
 	position: absolute;
 	top:49px;
 	left:0px;
@@ -39,9 +40,11 @@ body
 	background-color: WhiteSmoke; 
 	float: left;
     text-align: center;
-	}
-	
-#pieddepage{
+}
+
+#pieddepage
+
+{
 	background-color:DimGray;
 	position: absolute;
 	top:465px;
@@ -50,23 +53,20 @@ body
     text-align: center;
     height: 40px;
 	width:1100px;
-	}
-
-button{
-	z-index:1000;
-	border-radius:5px;
-	background-color:white;
 }
 
+
+
 #home 
-	{
+{
 	position: absolute;
-	top:6px;
+	top:3px;
 	left:0px;
     text-align: center;
    	height: 35px;
-	width:150px;
-    }
+	width:145px;
+}
+
     
     
 #instructions
@@ -76,31 +76,35 @@ button{
 	top:3px;
 	left:150px;
 	height: 32px;
-	width:750px;
+	width:640px;
     text-align: center;
     color:CornflowerBlue;
     Padding-top: 3px; 
     }
     
-#help {
+#help
+{
+	
 	position: absolute;
-	top:4px;
-	left:900px;
+	top:3px;
+	left:796px;
 	text-align: center;
-	color: Crimson;
+	color: CornflowerBlue;
 	height: 35px;
-	width:100px;
+	width:150px;
 }
 
 
-#suivant{
-	position: absolute;
-	top:4px;
-	left:1000px;
-   	text-align: center;
-   	height: 33px;
-	width:100px;
-	color: CornflowerBlue;
+
+#suivant
+{
+position: absolute;
+	top:3px;
+	left:950px;
+   text-align: center;
+   color:Crimson;
+   	height: 35px;
+	width:150px;
 }
 
 #titremodule
@@ -150,4 +154,12 @@ position: absolute;
 	text-align: center;
 
 }
+
+
+
+
+
+
+ 
+
  

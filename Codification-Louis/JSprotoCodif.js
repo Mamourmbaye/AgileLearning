@@ -71,10 +71,45 @@ $('#suivant').click(function(){
 				$('#memo').mouseleave(function(){
 					$('#aideMemo').hide();
 				});
-				/*$('#verify').mouseenter(function(){
-					if ($('#select1 option[value="M"]').attr("selected")&&$('#select3 option[value="02"]').attr("selected")) {}
-				}); */
-				$('#suivant').show();
+				$('#verify').click(function(){
+					if ($('#select1 option[value="M"]:checked').val() && $('#select3 option[value="03"]:checked').val() && $('#select4 option[value="B"]:checked').val() && $('#select5 option[value="W"]:checked').val()) {
+						$('#suivant').show();
+						$('#select1').css("background-color","green");
+						$('#select2').css("background-color","green");
+						$('#select3').css("background-color","green");
+						$('#select4').css("background-color","green");
+						$('#select5').css("background-color","green");
+						}
+					else {
+						$('#select2').css("background-color","green");
+						if($('#select1 option[value="M"]:checked').val()){
+						$('#select1').css("background-color","green");
+						}
+						else{
+						$('#select1').css("background-color","red");
+						}
+						if($('#select3 option[value="03"]:checked').val()){
+						$('#select3').css("background-color","green");
+						}
+						else{
+						$('#select3').css("background-color","red");
+						}
+						if($('#select4 option[value="B"]:checked').val()){
+						$('#select4').css("background-color","green");
+						}
+						else{
+						$('#select4').css("background-color","red");
+						}
+						if($('#select5 option[value="W"]:checked').val()){
+						$('#select5').css("background-color","green");
+						}
+						else{
+						$('#select5').css("background-color","red");
+						}
+						}
+					
+				});
+				
 				$('#suivant').click(function(){
 					$('#1').attr('class','previous visited');
 					$('#2').attr('class','previous visited');
