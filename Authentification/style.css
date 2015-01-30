@@ -40,7 +40,9 @@ body
 	width: 600px;
 	height: 302px;
 	text-align: center;
-  	border: 6px solid DimGray; 	
+  	border: 4px CornflowerBlue groove;
+    border-left: 4px Crimson groove;
+    border-right: 4px Crimson groove;
   	position: relative;
 }
 
