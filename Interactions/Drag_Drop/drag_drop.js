@@ -26,7 +26,7 @@ $(function() {
 	});
 
 //Vérification si toutes les ID des éléments droppés matchent avec le texte écrit à l'intérieur
-	$('#verify').click(function(){
+	$('#tp-suivant').click(function(){
 		var all=true;
 		var test=true;
 		//On teste pour chaque droppable et on recalcul la variable all
@@ -43,8 +43,7 @@ $(function() {
 
 		//On effectue un test global
 		if(all){
-			$('#correction p:first').text("Well Done !");
-			$('#next').show();
+			$('#correction p:first').html("Well Done ! <br/> Click next to follow up");
 		}else{
 			$('#correction p:first').html("You made some mistakes, correct them ! <br/> <i>Note that only the last dropped item is taken into account</i>");
 		}

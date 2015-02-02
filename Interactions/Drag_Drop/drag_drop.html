@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	    <meta charset="utf-8" />
+	    <title>Agilearning </title>
+	    <meta name="description" content="Agilearning"/>
+	   <link  rel="stylesheet" type="text/css"  href="template.css"/>
+		<link  rel="stylesheet" type="text/css"  href="drag_drop.css"/>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<link rel="stylesheet" href="/resources/demos/style.css">
+	</head>
+
+<body>
+
+<header >
+	<div  id=tp-entête>
+
+
+	</div>
+</header>
+
+<div id="tp-global" >
+
+
+<div id="tp-entête">
+
+	<table >
+		<tr >
+			<td id="tp-titremodule">
+				<h1 id= "tp-titre" > Module Basics </h1>
+			</td>
+			<td id= "tp-titresousmodule" >
+			<h1 id= "tp-soustitre">Codification</h1>
+			</td>
+		</tr>
+	</table>
+
+</div>
+
+<div id="tp-centre">
+	Drag the corresponding article to each UPN then click next to check you answers<br>
+	<strong><span class="display"></span></strong>
+	<br>
+
+	<div id="dragLine">
+		<div id="draggable1" class="draggable ui-widget-content">
+			<img src="image\resistance.jpg"/>
+			<p class='cache'>A Specific Resistance</p>
+		</div>
+		<div id="draggable2" class="draggable ui-widget-content">
+			<img src="image\card.jpg"/>
+			<p class='cache'>An Electronic card</p>
+		</div>
+		<div id="draggable3" class="draggable ui-widget-content">
+			<img src="image\sav.jpg"/>
+			<p class='cache'>A Customer Service</p>
+		</div>
+		<div id="draggable4" class="draggable ui-widget-content">
+			<img src="image\capa.jpg"/>
+			<p class='cache'>Electrolytic capacitors</p>
+		</div>
+		<div id="draggable5" class="draggable ui-widget-content">
+			<img src="image\doc.png"/>
+			<p class='cache'>A Manufacturing Document</p>
+		</div>
+	</div>
+
+	<br class="clear">
+
+<div id="dropline">
+	<div id="A Customer Service" class="droppable ui-widget-header">
+		L0056799001
+		<p class='cache verif'></p>
+	</div>
+	<div id="A Specific Resistance" class="droppable ui-widget-header">
+		M0237107301
+		<p class='cache verif'></p>
+	</div>
+	<div id="A Manufacturing Document" class="droppable ui-widget-header">
+		D0014567803
+		<p class='cache verif'></p>
+	</div>
+	<div id="An Electronic card" class="droppable ui-widget-header">
+		B0234851001
+		<p class='cache verif'></p>
+	</div>
+
+</div>
+
+<div id="correction">
+	<p><p>
+</div>
+
+
+</div>
+
+<div id="tp-pieddepage">
+ 	<table>
+	 		<tr>
+	 			<td>
+            		 <button id="tp-home">Home</button>
+           		</td>
+
+            	<td id="tp-instructions">
+            	</td>
+
+            	<td>
+					<button id="tp-help">Help</button>
+          		</td>
+
+	 			<td>
+ 					<button id="tp-suivant">Next</button>
+				</td>
+			</tr>
+	</table>
+
+</div>
+
+
+
+</div>
+
+
+  	<script src="drag_drop.js"></script>
+
+</body>
+
+
+</html>

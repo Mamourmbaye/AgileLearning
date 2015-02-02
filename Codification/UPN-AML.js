@@ -1,8 +1,13 @@
 $(function (){
   var av=1;
-
+  var finish=false;
 
   $("#tp-suivant").click(function (){
+    if (finish){
+      window.location = "./UPN-AML.html";
+    } else if (av==4){
+      alert("You need to scratch more !");
+    }
     switch (av){
       case 1 :
         $("#tp-centre p:first").html("Articles are represented by semi-significants codes called UPN. <br/> <strong> UPN = Universal Part Number </strong> <br/>");
@@ -26,6 +31,7 @@ $(function (){
 
             if (percent > 70) {
               this.clear();
+              finish=true;
             }
           }
         });
