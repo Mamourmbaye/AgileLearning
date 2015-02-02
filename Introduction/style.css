@@ -6,7 +6,7 @@
     left: 50%;
   }
 }
-h1 {
+.checkout-wrap h1 {
   text-align: center;
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: 400;
@@ -19,7 +19,7 @@ h1 {
   color: #444;
   font-family: 'PT Sans Caption', sans-serif;
   margin: 40px auto;
-  max-width: 1200px;
+  max-width: 900px;
   position: relative;
 }
 
@@ -51,11 +51,11 @@ ul.checkout-bar li:before {
   z-index: 999;
 }
 ul.checkout-bar li.active {
-  color: #8bc53f;
+  color: #e02523;
   font-weight: bold;
 }
 ul.checkout-bar li.active:before {
-  background: #8bc53f;
+  background: #e02523;
   z-index: 99999;
 }
 ul.checkout-bar li.visited {
@@ -96,7 +96,7 @@ ul.checkout-bar a {
   .checkout-bar li.active:after {
     -webkit-animation: myanimation 3s 0;
     background-size: 35px 35px;
-    background-color: #8bc53f;
+    background-color: #e02523;
     background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
     background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
     -webkit-box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
