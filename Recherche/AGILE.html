@@ -39,6 +39,7 @@
       position: relative;
     }
 	#textbas{
+	
 		position: absolute;
 		z-index: 110;
 		top: 4px; 
@@ -253,7 +254,7 @@
 		</div>
 		<div id="baspage">
 			<img  src="bas.png">
-			<DIV id=textbas> Tâche: Fermer la bulle </DIV>
+			<div id=textbas> Tâche: Fermer la bulle </div>
 		</div>
   </div>
   
@@ -264,7 +265,7 @@
    
 
 
-    //setInterval($("#textbas").fadeOut(900).delay(300).fadeIn(800);,2200);
+    
 
  $("#bouton1").hide();
  $("#bouton2").hide();
@@ -285,8 +286,20 @@
  $("#cadre").hide();
  $("#cadre1").hide();  
  
+  /* function FaireClignoterImage (){
+		$("#textbas").fadeOut(300).delay(500).fadeIn(300);
+		}
+   
+   $("#fond").click ( function() {
+		
+	$(document).ready(function(){
+    setInterval('FaireClignoterImage()',2200);
+	}); 
+		
+	});*/
    
    $("#quitter1").click ( function() {
+			//$('textbas').animate({top: '-=360' }, 1000);
 		 $("#fond").attr('src', 'Sans titre0_resultat.png');
 		 $("#homme").hide();
 		 $("#quitter1").hide();
@@ -344,7 +357,7 @@
 		 $("#cadre").show();
 	});
 	$("#bouton9").click ( function() {
-		 //if( $('#text').attr(value) == "YAGEO"){
+		// if( $("#text") == "YAGEO"){
 		 $("#fond").attr('src', 'Sans titre9_resultat.png');
 		 $("#bouton9").hide();
 		 $("#bouton10").show();
