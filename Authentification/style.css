@@ -1,6 +1,6 @@
  h1
 {
-	color: Crimson;
+	color:#F90E0E;
     background-color:; 
     text-align: center;
     margin: 15px;
@@ -11,10 +11,11 @@
 body
 {			
 	background-color: WhiteSmoke; 
-	border-left: 2px solid black
-	border-right: 2px solid black
-	border-left: 2px solid black
-	border-right: 2px solid black
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+    font-family: Calibri;
 }
 
 #titre 
@@ -35,9 +36,9 @@ body
 	width: 600px;
 	height: 302px;
 	text-align: center;
-  	border: 4px CornflowerBlue groove;
-    border-left: 4px Crimson groove;
-    border-right: 4px Crimson groove;
+  	border: 4px #1E64B3 groove;
+    border-left: 4px #F90E0E groove;
+    border-right: 4px #F90E0E groove;
   	position: relative;
 }
 
@@ -61,7 +62,7 @@ footer
 	position: absolute;
     right: 50px;
     bottom: 10px; 
-    color: CornflowerBlue
+    color: #1E64B3;
 }
 
 
