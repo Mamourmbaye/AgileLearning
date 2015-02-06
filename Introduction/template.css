@@ -9,9 +9,11 @@ footer{
 body
 {			
     background-color: WhiteSmoke; 	 
-    border-left: 2px solid black
-    border-right: 2px solid black   			
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-family: Calibri;
 }
+
 
 
 #global{
@@ -38,8 +40,8 @@ body
 	text-align: center;
 	background-color: WhiteSmoke; 
 	float: left;
-    text-align: center;
-	}
+
+}
 	
 #pieddepage{
 	background-color:DimGray;

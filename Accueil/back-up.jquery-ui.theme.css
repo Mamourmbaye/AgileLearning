@@ -105,7 +105,7 @@
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #fed22f;
-	background: #ffe45c url("images/ui-bg_highlight-soft_75_ffe45c_1x100.png") 50% top repeat-x;
+	background: #666366 url("images/ui-bg_highlight-soft_75_ffe45c_1x100.png") 50% top repeat-x;
 	color: #363636;
 }
 .ui-state-highlight a,
@@ -396,7 +396,7 @@
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #666666 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;
+	background: #666366 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;
 	opacity: .5;
 	filter: Alpha(Opacity=50); /* support: IE8 */
 }

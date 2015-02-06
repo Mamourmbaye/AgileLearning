@@ -1,6 +1,6 @@
  h1
 {
-	color:#F90E0E;
+	color:#CE1126;
     background-color:; 
     text-align: center;
     margin: 15px;
@@ -11,22 +11,18 @@
 body
 {			
 	background-color: WhiteSmoke; 
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
     font-family: Calibri;
+    color:#666366;
 }
 
 #titre 
 {	
 	text-align= center;
 	margin: auto;
-	color: DimGray;
    	width: 500px;
 	height: 152px;
 	position: relative;	
-  	text-align= center;
+  	text-align:center;
 }
 	
 #global
@@ -36,9 +32,9 @@ body
 	width: 600px;
 	height: 302px;
 	text-align: center;
-  	border: 4px #1E64B3 groove;
-    border-left: 4px #F90E0E groove;
-    border-right: 4px #F90E0E groove;
+  	border: 4px #0038A8 groove;
+    border-left: 4px #CE1126 groove;
+    border-right: 4px #CE1126 groove;
   	position: relative;
 }
 
@@ -48,7 +44,6 @@ body
 
 {	
 	text-align: center;
-	color: DimGray;
 	height: 100px;
 	width:600px;
 	position: absolute;
@@ -62,7 +57,7 @@ footer
 	position: absolute;
     right: 50px;
     bottom: 10px; 
-    color: #1E64B3;
+   color:#0038A8;
 }
 
 

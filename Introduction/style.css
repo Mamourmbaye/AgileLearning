@@ -177,3 +177,8 @@ ul.checkout-bar a {
     z-index: 99;
   }
 }
+
+body
+{
+  font-family: Calibri;
+}
