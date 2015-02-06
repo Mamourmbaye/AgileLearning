@@ -6,6 +6,11 @@
 
 /* Layout helpers
 ----------------------------------*/
+body
+{
+font-family: Calibri;;
+}
+
 .ui-helper-hidden {
 	display: none;
 }
